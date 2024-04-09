@@ -1,0 +1,16 @@
+name: suffixChat
+version: '${project.version}'
+author: "nemou-pin"
+main: club.nyandere.suffixchat.SuffixChat
+api-version: '1.18'
+permissions:
+  admin:
+    description: "管理"
+    default: op
+commands:
+  setgobi:
+    description: "語尾を設定"
+    usage: "/setgobi <語尾>"
+  resetgobi:
+    description: "語尾をリセット"
+    usage: "/resetgobi"
